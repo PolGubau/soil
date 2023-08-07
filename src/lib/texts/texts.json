@@ -1,0 +1,42 @@
+{
+	"title": "<strong>Soil</strong> Thesis Title",
+	"author": "Author Name",
+	"description": "Thesis Description Here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo. Donec euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo.",
+
+	"links": [
+		{
+			"title": "gubaupol@gmail.com",
+			"url": "mailto:gubaupol@gmail.com"
+		},
+		{
+			"title": "@polgubau",
+			"url": "http://www.twitter/polgubau.com"
+		}
+	],
+	"pages": [
+		{
+			"id": "1",
+			"title": "Title",
+			"content": "Page 1 Content Here",
+			"img": "images/1.png",
+			"imageCaption": "Image 1 Caption Here",
+			"bgColor": "#09f"
+		},
+		{
+			"id": "2",
+			"title": "Page 2",
+			"content": "Page 2 Content Here",
+			"img": "images/2.png",
+			"imageCaption": "Image 2 Caption Here",
+			"bgColor": "#ff4444"
+		},
+		{
+			"id": "3",
+			"title": "Page 3",
+			"content": "Page 3 Content Here",
+			"img": "images/3.png",
+			"imageCaption": "Image 3 Caption Here",
+			"bgColor": "#66ff66"
+		}
+	]
+}
