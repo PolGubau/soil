@@ -27,9 +27,9 @@
 	<footer>
 		<p>{@html text.description}</p>
 		<ol>
-			{#each text.pages as page (page.id)}
+			{#each text.pages as page, i (page.id)}
 				<li>
-					<a href={`${currentPage.url.pathname}#${page.id}`}>{page.title}</a>
+					<a href={`${currentPage.url.pathname}#${page.id}`}>{i + 1}. {page.title}</a>
 				</li>
 			{/each}
 		</ol>
@@ -37,15 +37,6 @@
 </div>
 
 <style>
-	ol {
-		line-height: 1.5em;
-		list-style: none;
-		display: flex;
-		flex-direction: column;
-	}
-	a {
-		color: black;
-	}
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -68,11 +59,17 @@
 		left: 5%;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-end;
+	}
+	footer ol {
+		line-height: 1.5em;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
 	}
 
 	footer a {
-		font-weight: bold;
+		color: black;
 	}
 	footer p {
 		max-width: 30vw;

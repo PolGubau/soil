@@ -16,6 +16,7 @@ specifiers:
   prettier-plugin-svelte: ^2.10.1
   svelte: ^4.0.5
   svelte-check: ^3.4.3
+  svelte-icons-pack: ^2.1.0
   svelte-inview: ^4.0.1
   tslib: ^2.4.1
   typescript: ^5.0.0
@@ -23,6 +24,7 @@ specifiers:
   vitest: ^0.32.2
 
 dependencies:
+  svelte-icons-pack: 2.1.0
   svelte-inview: 4.0.1_svelte@4.1.2
 
 devDependencies:
@@ -1923,6 +1925,10 @@ packages:
     dependencies:
       svelte: 4.1.2
     dev: true
+
+  /svelte-icons-pack/2.1.0:
+    resolution: {integrity: sha512-6Il0vWi/6MW3wXSorZhCqhkJGH4Pcg1WTcdlfFMPXfJqafZVQgmKdhVFS1c2hXGvs4byttpLC9XmI3okV1uMWA==}
+    dev: false
 
   /svelte-inview/4.0.1_svelte@4.1.2:
     resolution: {integrity: sha512-8NuT/DKFiZAccDw1Z16cIsdZ7K6/BGxrUfDaFaWTCEdn3YqMj1TUAkfmQ08FQ1+INl1G+TQS+ImXIBiiISgXog==}

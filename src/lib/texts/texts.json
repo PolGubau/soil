@@ -5,11 +5,13 @@
 
 	"links": [
 		{
+			"type": "email",
 			"title": "gubaupol@gmail.com",
 			"url": "mailto:gubaupol@gmail.com"
 		},
 		{
-			"title": "@polgubau",
+			"type": "twitter",
+			"title": "polgubau",
 			"url": "http://www.twitter/polgubau.com"
 		}
 	],

@@ -45,7 +45,8 @@
 	}
 	section article img {
 		max-height: 60vh;
-		height: 100%;
+		/* height: 100%; */
 		object-fit: cover;
+		max-width: 80vw;
 	}
 </style>

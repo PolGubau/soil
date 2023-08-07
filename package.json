@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-icons-pack": "^2.1.0",
 		"svelte-inview": "^4.0.1"
 	}
 }

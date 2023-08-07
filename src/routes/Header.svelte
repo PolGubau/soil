@@ -1,5 +1,8 @@
 <script>
 	import text from '$lib/texts/texts.json';
+	import SiMaildotru from 'svelte-icons-pack/si/SiMaildotru';
+	import SiTwitter from 'svelte-icons-pack/si/SiTwitter';
+	import Icon from 'svelte-icons-pack/Icon.svelte';
 </script>
 
 <header>
@@ -9,7 +12,16 @@
 		<ul>
 			{#each text.links as link (link.title)}
 				<li>
-					<a href={link.url}>{link.title}</a>
+					<a href={link.url}>
+						<span class="icon"
+							>{#if link.type === 'twitter'}
+								<Icon src={SiTwitter} />
+							{:else if link.type === 'email'}
+								<Icon src={SiMaildotru} />
+							{/if}
+						</span>
+						<span class="name">{link.title}</span></a
+					>
 				</li>
 			{/each}
 		</ul>
@@ -39,7 +51,39 @@
 		display: flex;
 		flex-direction: column;
 	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		aspect-ratio: 1;
+		height: 20px;
+	}
 	a {
 		color: black;
+		display: flex;
+		align-items: center;
+		gap: 2px;
+	}
+	@media (max-width: 600px) {
+		header {
+			flex-direction: column;
+			align-items: center;
+		}
+		ul {
+			position: fixed;
+			top: 0;
+			right: 15px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+		}
+
+		.links {
+			text-align: center;
+		}
+		.name {
+			display: none;
+		}
 	}
 </style>
