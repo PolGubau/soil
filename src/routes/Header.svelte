@@ -36,9 +36,12 @@
 		width: 90%;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 	header h1 {
-		margin: 0;
+		margin: 20px;
+		font-size: 3.5em;
+		line-height: 1.4em;
 	}
 	.links {
 		display: flex;

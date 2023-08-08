@@ -25,7 +25,7 @@
 	</main>
 
 	<footer>
-		<p>{@html text.description}</p>
+		<p class="page-description">{@html text.description}</p>
 		<ol>
 			{#each text.pages as page, i (page.id)}
 				<li>
@@ -67,11 +67,25 @@
 		display: flex;
 		flex-direction: column;
 	}
+	footer .page-description {
+		width: 40vw;
+		max-width: 600px;
+	}
+	@media screen and (max-width: 768px) {
+		footer {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		footer ol {
+			margin: 0;
+		}
+		footer .page-description {
+			display: none;
+		}
+	}
 
 	footer a {
+		text-decoration: none;
 		color: black;
-	}
-	footer p {
-		max-width: 30vw;
 	}
 </style>

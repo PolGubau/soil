@@ -10,9 +10,11 @@
 <section>
 	{#each text.pages as page (page.id)}
 		<article style={`background-color: ${page.bgColor};`} id={page.id}>
-			<img src={`${page.img}`} alt={page.imageCaption} />
-			<h2>{page.title}</h2>
-			<p>{@html page.content}</p>
+			<main class="content">
+				<img src={`${page.img}`} alt={page.imageCaption} />
+				<h2 class="title">{page.title}</h2>
+				<p class="description">{@html page.content}</p>
+			</main>
 		</article>
 	{/each}
 	<article>Last</article>
@@ -42,11 +44,29 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		line-height: 1.7em;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	section article img {
 		max-height: 60vh;
 		/* height: 100%; */
 		object-fit: cover;
 		max-width: 80vw;
+		margin-bottom: 30px;
+	}
+	.title {
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 0;
+	}
+	.description {
+		font-size: 1.1rem;
+		font-weight: 400;
+		margin: 0;
 	}
 </style>
