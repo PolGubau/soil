@@ -7,6 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/PolGubau/paris2024"
 	},
+	"private": false,
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",

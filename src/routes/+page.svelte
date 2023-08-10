@@ -3,8 +3,37 @@
 </script>
 
 <svelte:head>
-	<title>Soil</title>
-	<meta name="description" content="Soil Thesis Presentation" />
+	<title>Paris 2024 Thesis</title>
+
+	<meta
+		name="description"
+		content="Presentation of a group project for a Swidish university. A Multi frame analysis of the Paris 2024 Olympic Games bid."
+	/>
+	<meta name="keywords" content="Paris 2024, Olympic Games, Multi frame analysis, Thesis" />
+	<meta name="author" content="Pol Gubau Amores" />
+	<meta name="robots" content="index, follow" />
+
+	<meta property="og:title" content="Paris 2024 Thesis" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://paris2024.vercel.app" />
+
+	<meta property="og:image" content="https://paris2024.vercel.app/images/1.png" />
+	<meta property="og:image:alt" content="Paris 2024 thesis book cover" />
+	<meta property="og:image:width" content="794" />
+	<meta property="og:image:height" content="929" />
+
+	<meta
+		property="og:description"
+		content="Presentation of a group project for a Swidish university. A Multi frame analysis of the Paris 2024 Olympic Games bid."
+	/>
+
+	<meta property="og:site_name" content="Paris 2024 Thesis" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale:alternate" content="es_ES" />
+	<meta property="og:locale:alternate" content="ca_ES" />
+	<meta property="og:locale:alternate" content="fr_FR" />
+
+	<meta property="og:see_also" content="https://polgubau.com" />
 </svelte:head>
 
 <section>
@@ -18,8 +47,8 @@
 		</article>
 	{/each}
 	<article>
-		<h2>Thanks</h2>
-		<p class="descriptionIfMobile">{text.description}</p>
+		<p class="description">{@html text.description}</p>
+		<a class="download" href="/files/Paris2024-MultiFrameAnalysis.pdf" download>Download</a>
 	</article>
 </section>
 
@@ -63,28 +92,35 @@
 		margin-bottom: 30px;
 	}
 	.title {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		font-weight: 700;
 		margin: 0;
+		line-height: 1.2em;
+		text-align: center;
+
 		margin-bottom: 15px;
+		max-width: 80vw;
 	}
 	.description {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 		font-weight: 400;
 		margin: 0;
 		width: 500px;
 		max-width: 80vw;
 		text-align: center;
 	}
-	.descriptionIfMobile {
-		width: 500px;
-		max-width: 80vw;
-		text-align: center;
-		display: none;
-	}
-	@media screen and (max-width: 768px) {
-		.descriptionIfMobile {
-			display: flex;
-		}
+
+	.download {
+		text-decoration: none;
+		margin-top: 30px;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-size: 2em;
+		border: none;
+		background-color: transparent;
+		color: #000;
+		border: 3px solid #000;
+		font-weight: 400;
+		cursor: pointer;
 	}
 </style>

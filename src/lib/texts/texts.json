@@ -1,7 +1,7 @@
 {
 	"title": "Paris 2024",
 	"author": "Pol Gubau Amores",
-	"description": "Thesis Description Here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo. Donec euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo.",
+	"description": "Our solution to Linnaeus University, Sweden. We have chosen to create a thesis about the Paris 2024 Olympic Games based in Leadership and management. <br> <br>  <small> Group thesis by Eléa de Lavallaz, Mathis Dufourmantelle, Pol Gubau Amores and Emma Ménard.</small> <br> <br> <small> Coded and designed by <a target='_blank' href='https://github.com/PolGubau'>Pol Gubau Amores</a> as a challenge from <a href='https://www.frontendpractice.com' target='_blank'>Frontend Practice</a>. Inspired by <a href='https://backstagetalks.com'>Backstage Talks</a>.</small><br><small>Open Source code available on <a href='https://github.com/PolGubau/paris2024' target='_blank'>GitHub</a>.</small>",
 
 	"links": [
 		{
@@ -18,7 +18,7 @@
 	"pages": [
 		{
 			"id": "1",
-			"title": "The Cover",
+			"title": "The thesis",
 			"content": "A multi-Frame analysis of the Paris 2024 Olympic Games",
 			"img": "images/1.png",
 			"imageCaption": "Cover of the book",
@@ -26,7 +26,7 @@
 		},
 		{
 			"id": "2",
-			"title": "Table of contents",
+			"title": "Content",
 			"content": "Based on the biggest sociologists and political economists such as  <a target='_blank' href='https://www.britannica.com/biography/Max-Weber-German-sociologist'>Max Weber</a>",
 			"img": "images/2.png",
 			"imageCaption": "",

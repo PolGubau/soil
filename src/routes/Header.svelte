@@ -38,6 +38,7 @@
 		justify-content: space-between;
 		align-items: flex-start;
 		margin: 0;
+		font-size: 1.3rem;
 	}
 	ul {
 		margin: 0;
@@ -75,6 +76,7 @@
 	@media (max-width: 768px) {
 		header {
 			flex-direction: column;
+			position: relative;
 		}
 		ul {
 			position: fixed;
@@ -84,6 +86,11 @@
 			flex-direction: column;
 			align-items: center;
 			gap: 10px;
+		}
+		header h1 {
+			margin: 20px;
+			font-size: 3.5em;
+			line-height: 1.4em;
 		}
 
 		.links {
