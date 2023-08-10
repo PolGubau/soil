@@ -4,14 +4,14 @@ Welcome to the Paris 2024 Svelte Project repository! This project is a part of o
 
 ## **Table of Contents**
 
-- **[Introduction](https://chat.openai.com/#introduction)**
-- **[Thesis Overview](https://chat.openai.com/#thesis-overview)**
-- **[Usage](https://chat.openai.com/#usage)**
-- **[Contact](https://chat.openai.com/#contact)**
-- **[Pages](https://chat.openai.com/#pages)**
-  - **[The Thesis](https://chat.openai.com/#the-thesis)**
-  - **[Content](https://chat.openai.com/#content)**
-  - **[Availability](https://chat.openai.com/#availability)**
+- **[Introduction](https://github.com/PolGubau/paris2024/#introduction)**
+- **[Thesis Overview](https://github.com/PolGubau/paris2024/#thesis-overview)**
+- **[Usage](https://github.com/PolGubau/paris2024/#usage)**
+- **[Contact](https://github.com/PolGubau/paris2024/#contact)**
+- **[Pages](https://github.com/PolGubau/paris2024/#pages)**
+  - **[The Thesis](https://github.com/PolGubau/paris2024/#the-thesis)**
+  - **[Content](https://github.com/PolGubau/paris2024/#content)**
+  - **[Availability](https://github.com/PolGubau/paris2024/#availability)**
 
 ## **Introduction**
 
@@ -27,7 +27,7 @@ To run this Svelte project locally, follow these steps:
 
 1. Clone this repository: **`git clone https://github.com/PolGubau/paris2024.git`**
 2. Navigate to the project directory: **`cd paris2024`**
-3. Install dependencies: **`npm install`**
+3. Install dependencies: **`pnpm install`**
 4. Start the development server: **`npm run dev`**
 
 ## **Contact**
@@ -36,12 +36,13 @@ For inquiries or further information, feel free to get in touch with us:
 
 - Email: **[gubaupol@gmail.com](mailto:gubaupol@gmail.com)**
 - Twitter: **[@polgubau](http://www.twitter/polgubau.com)**
+- GitHub: **[PolGubau](https://github.com/PolGubau)**
 
 ## **Pages**
 
 ### **The Thesis**
 
-![https://chat.openai.com/images/1.png](https://chat.openai.com/images/1.png)
+![https://paris2024.vercel.app/images/1.png](https://paris2024.vercel.app/images/1.png)
 
 ### A Multi-Frame Analysis of the Paris 2024 Olympic Games
 
@@ -49,7 +50,7 @@ In this section, we present a comprehensive multi-frame analysis of the Paris 20
 
 ### **Content**
 
-![https://chat.openai.com/images/2.png](https://chat.openai.com/images/2.png)
+![https://paris2024.vercel.app/images/2.png](https://paris2024.vercel.app/images/2.png)
 
 ### Based on Prominent Sociologists and Political Economists
 
@@ -57,7 +58,7 @@ Our thesis draws inspiration from the works of notable figures like **[Max Weber
 
 ### **Availability**
 
-![https://chat.openai.com/images/3.png](https://chat.openai.com/images/3.png)
+![https://paris2024.vercel.app/images/3.png](https://paris2024.vercel.app/images/3.png)
 
 ### Available Worldwide, Completely Free
 
