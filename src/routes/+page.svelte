@@ -17,7 +17,10 @@
 			</main>
 		</article>
 	{/each}
-	<article>Last</article>
+	<article>
+		<h2>Thanks</h2>
+		<p class="descriptionIfMobile">{text.description}</p>
+	</article>
 </section>
 
 <style>
@@ -63,10 +66,21 @@
 		font-size: 2rem;
 		font-weight: 700;
 		margin: 0;
+		margin-bottom: 15px;
 	}
 	.description {
 		font-size: 1.1rem;
 		font-weight: 400;
 		margin: 0;
+	}
+	.descriptionIfMobile {
+		max-width: 500px;
+		text-align: center;
+		display: none;
+	}
+	@media screen and (max-width: 768px) {
+		.descriptionIfMobile {
+			display: flex;
+		}
 	}
 </style>

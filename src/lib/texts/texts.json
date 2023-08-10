@@ -1,6 +1,6 @@
 {
-	"title": " Soil Thesis",
-	"author": "Author Name",
+	"title": "Paris 2024",
+	"author": "Pol Gubau Amores",
 	"description": "Thesis Description Here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo. Donec euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec justo.",
 
 	"links": [
@@ -18,11 +18,11 @@
 	"pages": [
 		{
 			"id": "1",
-			"title": "Title",
-			"content": "Page 1 Content Here",
+			"title": "The Cover",
+			"content": "A multi-Frame analysis of the Paris 2024 Olympic",
 			"img": "images/1.png",
-			"imageCaption": "Image 1 Caption Here",
-			"bgColor": "#09f"
+			"imageCaption": "Cover of the book",
+			"bgColor": "#FFDA52"
 		},
 		{
 			"id": "2",

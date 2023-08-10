@@ -36,7 +36,12 @@
 		width: 90%;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
+		margin: 0;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
 	}
 	header h1 {
 		margin: 20px;
@@ -67,14 +72,13 @@
 		align-items: center;
 		gap: 2px;
 	}
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		header {
 			flex-direction: column;
-			align-items: center;
 		}
 		ul {
 			position: fixed;
-			top: 0;
+			top: 15px;
 			right: 15px;
 			display: flex;
 			flex-direction: column;
