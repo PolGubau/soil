@@ -1,5 +1,12 @@
 {
-	"name": "soil",
+	"name": "paris2024",
+	"description": "Presentation of a group project for a Swidish university. A Multi frame analysis of the Paris 2024 Olympic Games bid.",
+	"author": "Pol Gubau Amores",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PolGubau/paris2024"
+	},
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",

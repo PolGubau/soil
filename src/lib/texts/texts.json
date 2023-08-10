@@ -19,25 +19,25 @@
 		{
 			"id": "1",
 			"title": "The Cover",
-			"content": "A multi-Frame analysis of the Paris 2024 Olympic",
+			"content": "A multi-Frame analysis of the Paris 2024 Olympic Games",
 			"img": "images/1.png",
 			"imageCaption": "Cover of the book",
 			"bgColor": "#FFDA52"
 		},
 		{
 			"id": "2",
-			"title": "Page 2",
-			"content": "Page 2 Content Here",
+			"title": "Table of contents",
+			"content": "Based on the biggest sociologists and political economists such as  <a target='_blank' href='https://www.britannica.com/biography/Max-Weber-German-sociologist'>Max Weber</a>",
 			"img": "images/2.png",
-			"imageCaption": "Image 2 Caption Here",
+			"imageCaption": "",
 			"bgColor": "#ff4444"
 		},
 		{
 			"id": "3",
-			"title": "Page 3",
-			"content": "Page 3 Content Here",
+			"title": "Available worldwide totally free",
+			"content": "Print the Thesis or read it on your computer, tablet or smartphone",
 			"img": "images/3.png",
-			"imageCaption": "Image 3 Caption Here",
+			"imageCaption": "",
 			"bgColor": "#66ff66"
 		}
 	]

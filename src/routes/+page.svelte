@@ -72,9 +72,13 @@
 		font-size: 1.1rem;
 		font-weight: 400;
 		margin: 0;
+		width: 500px;
+		max-width: 80vw;
+		text-align: center;
 	}
 	.descriptionIfMobile {
-		max-width: 500px;
+		width: 500px;
+		max-width: 80vw;
 		text-align: center;
 		display: none;
 	}

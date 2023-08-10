@@ -72,6 +72,7 @@
 		footer {
 			flex-direction: column;
 			align-items: flex-start;
+			text-align: start;
 		}
 		footer ol {
 			margin: 0;
